@@ -1,0 +1,56 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, #da90d0, #d43a54);
+    animation: planodefundoanimado 5s infinite;
+   
+
+}
+
+.textoanimado{
+    font-size: 3em;
+    font-weight: 900;
+    color: white;
+    animation: texto 2s infinite;
+}
+
+@keyframes texto {
+    0%{
+        font-size: 2em;
+        color: #f1f1f1;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-shadow: #723660;
+    }
+    50%{
+        font-size: 5em;
+        color: #e0a3a3;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-shadow: #e6bcd9;
+    }
+    100%{
+        font-size: 2em;
+        color: #f1f1f1;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-shadow: #532345;
+    }
+}
+
+@keyframes planodefundoanimado {
+   0%{
+        background: linear-gradient(90deg, #eb9ce0, #db4f66);
+    }
+
+   50%{
+        background: linear-gradient(90deg, #fcbcf3, #e0667a);
+    }
+   100%{
+        background: linear-gradient(90deg, #e482d3, #ec4a65);
+    }
+}
+
+h1{
+    text-shadow:2px  7px  1px #723660;
+}

@@ -1,0 +1,49 @@
+body{
+
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+
+}
+
+.box{
+    padding: 20px;
+    border: 2px solid #333;
+    width: 30%;
+}
+
+/* Estilo usando unidades absolutas */
+.absoluto{
+    width: 300px;   /*Absoluto : largura fixa */
+    height: 200px;  /*Absoluto: altura fixa*/
+    font-size: 16px; /* Absoluto: tamanho da fonte fixo*/
+    background-color: #166dd1f3;
+}
+
+.relativo{
+    width: 50%; /*Relativo: largura depende do pai*/
+    height: 50vh; /* Relativo: altura depende da viewport*/
+    font-size: 2rem; /* Relativo: tamanho da fonte depende da raiz.*/
+    background-color: #92b2db;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
